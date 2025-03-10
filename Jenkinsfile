@@ -20,7 +20,7 @@ pipeline {
             steps {
                 sh '''
                     echo "Testing by running the executable"
-                    
+                    cd main
                     ./${SRN}_1
                 '''
             }
